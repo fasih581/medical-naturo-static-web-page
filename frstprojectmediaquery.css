@@ -1,0 +1,352 @@
+.heading .list .btn{
+  display: none;
+}
+.heading #menu{
+    display: none !important;
+}
+.heading input{
+    display: none;
+}
+#product_click{
+  display: block;
+} 
+@media (max-width:1269px){
+    .main_section .right img{
+        display: none;
+    }
+}
+
+
+@media (max-width: 1024px) {
+  .nav_frame {
+    height: unset;
+  }
+
+  .main_banner .heading .nav_menu {
+    margin-right: unset;
+  }
+  .main_banner .heading .list ul {
+    gap: 15px;
+  }
+  .main_banner .btn {
+    gap: 18px;
+  }
+    .main_flex {
+        justify-content: center;
+        display: grid;
+      }
+    .main_section .left {
+        align-items: center;
+        margin: 50px 0 80px 0;
+      }
+      .main_section .left h1 {
+        width: 681px;
+        text-align: center
+      }
+     
+      .review_section .card {
+        padding: 5px;
+      }
+
+      .course_section {
+        display: flex;
+      }
+      .course_section .box {
+        display: grid;
+        flex-direction: column;
+        justify-items: center;
+        grid-template-columns: 1fr;
+      
+      }
+     
+      .course_section .card .top img {
+        width: 100%;
+        height: 100%;
+      }
+      .course_section .bottom {
+        padding: 14px 25px 9px 25px;
+      }
+      .course_section .card {
+        background-color: none !important;
+        display: flex;
+      }
+      .price_section .new_label{
+        display: none;
+      }
+      .footer_section .box {
+        grid-template-columns: repeat(4,1fr);
+      }
+  
+}
+
+@media (max-width: 767px){
+  .nav_heading .btn {
+    gap: 5px;
+  }
+  .nav_heading .btn .btn.filled_btn {
+    padding: 10px 10px;
+  }
+  .heading .list .btn .btn.filled_btn{
+    display: none !important;
+  }
+  .heading .list .btn .btn.outline_btn{
+    display: block !important;
+  }
+  .main_banner .btn .btn.filled_btn{
+    display: flex !important;
+  }
+  .main_banner .heading h3 {
+    font-size: 20px;
+    display: flex;
+    flex: 1;
+  }
+  
+.main_section .left {
+  margin: 126px 0 80px 0;
+}
+  header{
+    background: #fff;
+    position: fixed;
+    z-index: 9;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    box-shadow: var(--box-shadow);
+  }
+  #nav_menu:checked ~ .list {
+    display: block !important;
+    background-color: #737373;
+    height: calc(100vh - 80px);
+    width: 345px;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    overflow-y: scroll;
+  }
+  .main_banner .list ul li ul.product_menu {
+    width: 345px;
+    border-radius: unset;
+  }
+  .main_banner .heading .list ul {
+    display: grid;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_banner .heading .list ul li {
+    font-size: 18px;
+    display: grid;
+    justify-items: center;
+  }
+  .main_banner .heading .list ul li a:hover {
+    color: #23A6F0;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .main_banner .heading .list ul li a{
+    color: #fff;
+  }
+  .main_banner .heading .list ul li ul.product_menu{
+    margin: unset;
+    position: unset;
+  }
+  .main_banner .heading .list ul li.drop_down ul.product_menu li a:hover{
+    color: #fff;
+  }
+  .heading .list{
+    display: none !important;
+  }
+  .heading .list .btn{
+    display: flex;
+    margin-top: 26px;
+    justify-content: center;
+    gap: 10px;
+  }
+.heading .list .btn.outline_btn{
+  padding: 15px 25px;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  border: 1px solid;
+
+}
+  .heading .btn .btn.outline_btn{
+    display: none !important;
+  }
+  .heading #menu{
+    display: block !important;
+}
+  .main_banner .heading .nav_menu {
+    margin-right: 0px;
+    display: flex;
+    gap: 5px;
+  }
+
+  .main_section .left h1 {
+    width: 400px;
+    font-size: 34px;
+  }
+  .activity_section .brand_icon {
+    display: none;
+  }
+  .activity_section img {
+    width: 300px;
+    height: 250px;
+  }
+  .activity_section .right h2 {
+    gap: 10px;
+    font-size: 26px;
+  }
+  .activity_section .activity {
+    gap: 10px;
+  }
+  .activity_section .right {
+    gap: 10px;
+  }
+  .activity_section .box {
+    grid-template-columns: 1fr;
+  } 
+  .activity_section .card{
+    border-radius: 10px;
+    justify-content: center;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+  }
+  .activity_section .card p {
+  max-width: 358px;
+}
+  .activity_section .card h3 {
+  align-items: center;
+}
+  .activity_section .right p {
+    max-width: 399px;
+  }
+  .course_section .top_header .top {
+  text-align: center;
+  display: grid;
+  gap: 10px;
+}
+  .course_section .top_header h2 {
+    font-size: 32px;
+  }
+  .course_section .top_header p {
+  max-width: unset;
+}
+.course_section .box {
+  padding-bottom: unset;
+}
+.price_section .price_top .top {
+  text-align: center;
+}
+.price_section .price_top .top p {
+  max-width: unset;
+}
+  .price_section .card .price_card_p {
+    max-width: unset;
+  }
+  .price_section .card p {
+    max-width: unset;
+    text-align: center;
+  }
+  .price_section .box {
+    grid-template-columns: none;
+  }
+  .price_section .card{
+    display: grid;
+    justify-items: center;
+  }
+  .price_section .card button {
+  max-width: 449px;
+}
+.review_section .top {
+  align-items: center;
+}
+  .review_section .box {
+    grid-template-columns: none;
+  }
+  .review_section .review {
+  width: unset;
+}
+.review_section .top p {
+  text-align: center;
+}
+.review_section .review p {
+  max-width: 376px;
+}
+  .footer_section .box {
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .price_section .card {
+    padding: 20px 10px 20px 10px;
+  }
+  .course_section .card .top img {
+    height: 100%;
+  }
+} 
+
+@media (max-width: 420px) {
+
+  .heading .list .btn .btn.outline_btn{
+    display: block !important;
+  }
+
+  .main_section .left .btn {
+    font-size: 10px;
+  }
+  .main_section .left h1 {
+    max-width: 290px;
+    font-size: 23px !important;
+  }
+  .main_section .left h4 {
+    font-size: 15px;
+  }
+  .main_banner .heading .nav_menu {
+    margin-right: 0px !important;
+  }
+  .heading .nav_menu h3 {
+    font-size: 18px;
+  }
+  .main_section .left h1 {
+    width: 348px;
+    font-size: 29px;
+  }
+  .activity_section img {
+    display: none;
+  }
+  .activity_section .right h2 {
+    display: flex;
+    align-items: center;
+}
+.activity_section .right {
+    gap: 10px;
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 37px;
+}
+  .course_section .card {
+    background-color: none !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price_section .box {
+    grid-template-columns: 1fr;
+  }
+  .review_section .top h2 {
+    font-size: 23px;
+  }
+  .review_section .box {
+    grid-template-columns: 1fr !important;
+    
+  }
+  .join_section .email button {
+    padding: 15px 9.5px;
+  }
+  .footer_section .box {
+    grid-template-columns: repeat(1,1fr);
+  }
+}
